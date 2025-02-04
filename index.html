@@ -138,8 +138,8 @@
     <!-- CAROUSEL END  -->
 
     <!-- SECTION ONE START  -->
-    <div class="container text-center py-5 px-5">
-      <div class="pb-5">
+    <div class="section-one-main container text-center py-5 px-5">
+      <div class="section-one-heading pb-5">
         <h2>What's New</h2>
       </div>
       <div class="row py-3">
@@ -205,7 +205,8 @@
     <!-- SECTION ONE END  -->
 
     <!-- SECTION TWO START -->
-    <div class="py-5 img-inner ">
+    <!-- IMAGE  -->
+    <div class="py-5 img-inner">
       <img
         class="col-12"
         class="img-fluid w-100"
@@ -213,25 +214,26 @@
         alt=""
       />
       <div class="img-caption">
+        <!-- BUTTON  -->
         <button class="btn btn-danger">Learn More</button>
       </div>
     </div>
     <!-- SECTION TWO END -->
 
     <!-- SECTION THREE START  -->
-
-    <div class="container  text-center py-5 px-5">
-      <div class="pb-5">
+    <div class="container-fluid text-center py-5 px-3">
+      <div class="pb-4">
         <h2>News & Events</h2>
       </div>
 
-      <div class="row pb-5">
-        <div class="col-12 col-lg-4">
+      <div class="row pb-4 g-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
           <div
-            class="card "
+            class="card h-100"
             style="
-              width: 18rem;
-              height: 100%;
+              width: 100%;
+              max-width: 22rem;
               background-color: rgba(236, 232, 232, 0.738);
               border: 0;
             "
@@ -239,38 +241,39 @@
             <img
               src="images/mwc2025.jpg"
               class="img-fluid card-img-top w-100"
-              alt="..."
+              alt="MWC 2025"
             />
             <div class="card-body text-start">
-              <h6 class="card-title ">MWC Barcelona 2025</h6>
+              <h6 class="card-title">MWC Barcelona 2025</h6>
               <div style="font-size: 0.8rem">
                 <p>
                   <i
-                    class="fa-solid fa-location-dot"
+                    class="fa-solid fa-calendar-days"
                     style="color: #000000"
                   ></i>
                   March 3 - 6, 2025 &nbsp;&nbsp;&nbsp;
                   <i
-                    class="fa-solid fa-calendar-days"
+                    class="fa-solid fa-location-dot"
                     style="color: #000000"
                   ></i>
                   Barcelona, Spain
                 </p>
                 <p class="card-text">
                   Unlock new growth opportunities, create new business value,
-                  and drive shared success in the age of All Intelligence
+                  and drive shared success in the age of All Intelligence.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-lg-4">
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
           <div
-            class="card"
+            class="card h-100"
             style="
-              width: 18rem;
-              height: 100%;
+              width: 100%;
+              max-width: 22rem;
               background-color: rgba(236, 232, 232, 0.738);
               border: 0;
             "
@@ -278,10 +281,13 @@
             <img
               src="images/250117-1.jpg"
               class="card-img-top img-fluid w-100"
-              alt="..."
+              alt="Huawei Tech4Nature Project"
             />
             <div class="card-body text-start">
-              <h6 class="card-title" style="word-spacing: 0.2rem; letter-spacing: 0.1rem;">
+              <h6
+                class="card-title"
+                style="word-spacing: 0.2rem; letter-spacing: 0.1rem"
+              >
                 Huawei and IUCN Launch Tech4Nature Project with Kenya Wildlife
                 Service to Protect Coral Reefs
               </h6>
@@ -292,46 +298,61 @@
             </div>
           </div>
         </div>
+
+        <!-- Slider List -->
         <div
-          class="col-12 col-lg-4 text-start"
+          class="col-12 col-lg-4"
           style="
             background-color: rgba(236, 232, 232, 0.738);
-            height: 370px;
+            height: 400px;
             overflow: auto;
           "
         >
-          <h6>
-            Huawei OceanStor Dorado All-Flash Storage Earns CC Certification,
-            the Highest Storage Device Security Standard
-          </h6>
-          <p style="font-size: 0.8rem">JAN 14, 2025</p>
-          <h6>
-            Dual Leadership Recognition Huawei Named a Leader in Coldago
-            Research Maps 2024 for File Storage and Object Storage
-          </h6>
-          <p style="font-size: 0.8rem">DEC 27, 2024</p>
-          <h6>
-            Huawei Announces OlympusMons Challenges for Fifth Consecutive Year
-          </h6>
-          <p style="font-size: 0.8rem">DEC 26, 2024</p>
-
-          <h6>
-            Omdia and Huawei Release CSP Data-driven NPS Management White Paper
-          </h6>
-          <p style="font-size: 0.8rem">DEC 17, 2024</p>
-          <h6>
-            Huawei Maintains the Top Position in the Global Passive Antenna
-            Market for the Ninth Consecutive Year
-          </h6>
-          <p style="font-size: 0.8rem">DEC 17, 2024</p>
+          <div
+            class="p-3 h-100"
+            style="
+              background-color: rgba(236, 232, 232, 0.738);
+              overflow: auto;
+              max-height: 400px;
+            "
+          >
+            <h6>
+              Huawei OceanStor Dorado All-Flash Storage Earns CC Certification,
+              the Highest Storage Device Security Standard
+            </h6>
+            <p style="font-size: 0.8rem">JAN 14, 2025</p>
+            <h6>
+              Dual Leadership Recognition: Huawei Named a Leader in Coldago
+              Research Maps 2024 for File Storage and Object Storage
+            </h6>
+            <p style="font-size: 0.8rem">DEC 27, 2024</p>
+            <h6>
+              Huawei Announces OlympusMons Challenges for Fifth Consecutive Year
+            </h6>
+            <p style="font-size: 0.8rem">DEC 26, 2024</p>
+            <h6>
+              Omdia and Huawei Release CSP Data-driven NPS Management White
+              Paper
+            </h6>
+            <p style="font-size: 0.8rem">DEC 17, 2024</p>
+            <h6>
+              Huawei Maintains the Top Position in the Global Passive Antenna
+              Market for the Ninth Consecutive Year
+            </h6>
+            <p style="font-size: 0.8rem">DEC 17, 2024</p>
+          </div>
         </div>
       </div>
-      <button type="button" class="btn btn-outline-danger px-5">
-        More Events
-      </button>
-      <button type="button" class="btn btn-outline-danger px-5">
-        More News
-      </button>
+
+      <!-- Buttons -->
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <button type="button" class="btn btn-outline-danger px-5">
+          More Events
+        </button>
+        <button type="button" class="btn btn-outline-danger px-5">
+          More News
+        </button>
+      </div>
     </div>
 
     <!-- SECTION THREE END  -->
@@ -339,7 +360,7 @@
     <!-- FOOTER   START  -->
     <div class="container pt-5 pb-2 text-secondary">
       <div
-        class="d-flex  justify-content-between pb-2"
+        class="d-flex justify-content-between pb-2"
         style="border-bottom: 1px solid rgb(202, 202, 202)"
       >
         <div>
@@ -352,7 +373,9 @@
 
       <div class="footer-child d-flex justify-content-between py-4">
         <div style="font-size: 0.7rem">
-          <p style=" font-size: 0.9rem" class="fw-bold text-dark">About Huawei</p>
+          <p style="font-size: 0.9rem" class="fw-bold text-dark">
+            About Huawei
+          </p>
           <p>Our Company</p>
           <p>Sustainability</p>
           <p>Trust Center</p>
@@ -363,12 +386,16 @@
         </div>
 
         <div style="font-size: 0.7rem">
-          <p style="font-size: 0.9rem" class="fw-bold text-dark">News & Events</p>
+          <p style="font-size: 0.9rem" class="fw-bold text-dark">
+            News & Events
+          </p>
           <p>Media Center</p>
           <p>Events</p>
         </div>
         <div style="font-size: 0.7rem">
-          <p style="font-size: 0.9rem" class="fw-bold text-dark">Explore Huawei</p>
+          <p style="font-size: 0.9rem" class="fw-bold text-dark">
+            Explore Huawei
+          </p>
           <p>HuaweiTech</p>
           <p>Thrive with Digital</p>
           <p>Exploring the Intelligent World</p>
@@ -410,7 +437,7 @@
       </div>
     </div>
     <div
-      class=" footer-second-child d-flex justify-content-center column-gap-3 align-items-center p-2"
+      class="footer-second-child d-flex justify-content-center column-gap-3 align-items-center p-2"
       style="font-size: 0.8rem; background-color: rgb(203, 203, 203)"
     >
       <p class="m-0">©2025 Huawei Technologies Co., Ltd.</p>
